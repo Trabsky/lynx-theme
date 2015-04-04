@@ -1175,7 +1175,6 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-head.main-header {
-    height: 65vh;
     min-height: 180px;
 }
 
@@ -1183,7 +1182,8 @@ body:not(.post-template) .post-title {
     height: 85px;
     min-height: 0;
     margin-bottom: 0;
-    background: transparent;
+    background: #1E1E20;
+    margin-bottom:50px;
 }
 
 .tag-head.main-header {
@@ -1826,6 +1826,16 @@ body:not(.post-template) .post-title {
 
 }
 
+
+.title-image {
+    margin-bottom: 15px;
+}
+
+
+.alert-box {
+  background-color: scale-color(#578AC2, $lightness: 50%);
+  color: scale-color(#578AC2, $lightness: -30%);
+}
 
 /* ==========================================================================
    12. Animations
