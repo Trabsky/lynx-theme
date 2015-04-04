@@ -853,6 +853,35 @@ body.nav-opened .menu-button .word {
     color: #555;
 }
 
+.sb-button {
+    border-radius: 4px;
+    border: 1px solid rgb(60, 110, 165);
+    background-color: rgb(87, 138, 194);
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.027451) 100%);
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 2px 2px 0px;
+    box-sizing: border-box;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      display: inline-block;
+      font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 300ms ease;
+  margin-top: 21px;
+  animation: fade-in-down 0.9s;
+  animation-delay: 0.1s;
+  &:hover {
+    background-color: scale-color(rgb(87, 138, 194), $lightness: -10%);
+    color: #FFF;
+  }
+}
+
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
